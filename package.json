@@ -23,6 +23,8 @@
   },
   "private": true,
   "husky": {
-    "pre-commit": "echo 'teste'"
+    "hooks": {
+      "pre-commit": "echo 'teste'"
+    }
   }
 }
