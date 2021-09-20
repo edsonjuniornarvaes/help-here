@@ -6,8 +6,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "pre-commit": "echo 'teste'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier . --write",
+    "lintFix": "eslint . --fix"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.31.1",
@@ -37,13 +38,13 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "echo 'teste'"
     }
   },
   "lint-staged": {
-    "*.{js, ts}": [
+    "*.{ts,tsx,js}": [
       "eslint --fix",
-      "git add"
+      "prettier --write"
     ]
   }
 }
