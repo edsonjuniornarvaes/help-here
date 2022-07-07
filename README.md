@@ -30,13 +30,13 @@ This is an Help Here.
 
 Create the help-here folder
 
-```console
-$ mkdir help-here
+```bash
+mkdir help-here
 ```
 
 In the help-here, clone the repository:
 
-```console
+```bash
 # HTTPS
 $ git clone https://github.com/edsonjuniornarvaes/helphere.git .
 # or
@@ -46,20 +46,20 @@ $ git clone git@github.com:edsonjuniornarvaes/helphere.git .
 
 Generate the .env file
 
-```console
-$ cp .env.example .env
+```bash
+cp .env.example .env
 ```
 
 Install Yarn
 
-```console
-$ yarn install
+```bash
+yarn install
 ```
 
 Run the project
 
-```console
-$ expo start -c
+```bash
+expo start -c
 ```
 
 ## 📄 Development
