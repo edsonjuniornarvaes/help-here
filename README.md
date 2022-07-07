@@ -38,10 +38,10 @@ In the help-here, clone the repository:
 
 ```bash
 # HTTPS
-$ git clone https://github.com/edsonjuniornarvaes/helphere.git .
+git clone https://github.com/edsonjuniornarvaes/helphere.git .
 # or
 # SSH
-$ git clone git@github.com:edsonjuniornarvaes/helphere.git .
+git clone git@github.com:edsonjuniornarvaes/helphere.git .
 ```
 
 Generate the .env file
