@@ -58,15 +58,15 @@
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.29.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
-    "prettier": "^2.3.1",
+    "prettier": "^2.7.1",
     "reactotron-core-client": "^2.8.10",
     "reactotron-react-native": "^5.0.0",
     "typescript": "~4.3.5"
@@ -82,5 +82,8 @@
       "eslint --fix",
       "prettier --write"
     ]
+  },
+  "resolutions": {
+    "@types/react": "~17.0.21"
   }
 }
