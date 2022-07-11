@@ -53,7 +53,7 @@ cp .env.example .env
 Install Yarn
 
 ```bash
-yarn install
+yarn
 ```
 
 Run the project
