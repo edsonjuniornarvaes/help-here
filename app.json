@@ -2,7 +2,6 @@
   "expo": {
     "name": "help-here",
     "slug": "help-here",
-    "owner": "help-here",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,11 +15,9 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.helphere.help-here"
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.helphere.help-here",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
