@@ -54,8 +54,6 @@
     "import/no-unresolved": "off",
     "import/no-named-as-default": "off",
     "import/prefer-default-export": "off",
-    "space-before-blocks": "off",
-    "prefer-default-export": "off",
     "@typescript-eslint/space-before-blocks": "off",
     "react/jsx-filename-extension": [
       "error",
